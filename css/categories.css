@@ -1,0 +1,35 @@
+main {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensures the main content takes at least the full height of the viewport */
+}
+
+.categories {
+    flex-grow: 1; /* This allows the categories section to expand and take up available space */
+    padding: 2rem; /* Adds some padding around the categories section */
+}
+
+.category-list {
+    display: flex;
+    flex-direction: column; /* Stack the items vertically */
+    gap: 1.5rem; /* Adds space between each category */
+}
+
+.category-item {
+    background-color: #f0f0f0;
+    padding: 2rem; /* Increase padding to make boxes bigger */
+    text-align: center;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+}
+
+.category-item:hover {
+    background-color: #ddd; /* Change background color on hover */
+}
+
+.category-item h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
