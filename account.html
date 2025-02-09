@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MokeSell Homepage</title>
+    <title>User Dashboard - MokeSell</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/account.css">
 </head>
-
 <body>
     <header class="header">
         <div class="container">
@@ -22,31 +21,18 @@
             </nav>
         </div>
     </header>
-    
+
     <main>
-        <section class="hero">
-            <div class="hero-content">
-                <h2>Discover Amazing Deals!</h2>
-                <p>Shop pre-loved and brand-new items at unbeatable prices.</p>
-                <a href="#" class="btn">Start Shopping</a>
+        <section class="user-dashboard">
+            <div class="user-info">
+                <img id="user-img" src="images/WIN_20250201_17_03_21_Pro.jpg" alt="User Profile Picture">
+                <h2 id="username">Username</h2>
+                <p id="followers-count">Followers: 0</p>
+                <button id="follow-btn">Follow</button>
             </div>
-        </section>
-
-        <section class="categories">
-            <h2>Browse Categories</h2>
-            <div class="category-list">
-                <div class="category-item">Electronics</div>
-                <div class="category-item">Fashion</div>
-                <div class="category-item">Home & Living</div>
-                <div class="category-item">Sports</div>
-                <div class="category-item">Toys & Games</div>
-                <div class="category-item">Vehicles</div>
-            </div>
-        </section>
-
-        <section class="featured">
-            <h2>Featured Products</h2>
-            <div class="product-grid">
+            <div class="user-listings">
+                <h3>Your Listings</h3>
+                <div id="listings-container" class="listings-grid"></div>
             </div>
         </section>
     </main>
@@ -62,7 +48,6 @@
         </div>
     </footer>
 
-    <script src="js/index.js"></script>
+    <script src="js/account.js"></script>
 </body>
-
 </html>

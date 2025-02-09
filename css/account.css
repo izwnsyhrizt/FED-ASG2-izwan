@@ -1,0 +1,81 @@
+/* User Dashboard Layout */
+.user-dashboard {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.user-info {
+    width: 30%;
+    text-align: center;
+    margin-top:18px;
+}
+
+#user-img {
+    width: 150px;
+    height: 150px; /* Ensure height is also set for consistency */
+    border-radius: 50%;
+    object-fit: cover; /* Ensure the image fits without distortion */
+}
+
+#follow-btn {
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.user-listings {
+    width: 60%;
+}
+
+.listings-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.listing-item {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.listing-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Product Image in Listings */
+.listing-item img {
+    width: 100%;
+    height: 200px; /* Standardize height */
+    object-fit: contain;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+/* Listing Text Styles */
+.listing-item h4 {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #333;
+}
+
+.listing-item p {
+    font-size: 0.9rem;
+    color: #777;
+    margin: 0;
+}
+
+/* Price Styling */
+.listing-item .price {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007BFF;
+    margin-top: 10px;
+}
