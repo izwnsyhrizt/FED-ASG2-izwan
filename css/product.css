@@ -98,3 +98,45 @@ footer a:hover {
     text-align: center;
     position: relative;
 }
+
+#surprise-reward-container {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    background-color: #f0f8ff;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    display: none;
+    max-width: 80%;
+    width: 300px;
+}
+
+#surprise-reward-container .reward-message h3 {
+    color: #ff6347;
+}
+
+#surprise-reward-container .badge {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+#surprise-reward-container .badge img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+#surprise-reward-container .badge p {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #555;
+}
+
+body.blur-background {
+    filter: blur(5px); /* Apply blur to the entire page */
+    transition: filter 0.3s ease; /* Smooth transition for the blur effect */
+}

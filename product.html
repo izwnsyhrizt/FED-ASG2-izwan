@@ -7,7 +7,8 @@
     <title>Product Details</title>
     <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="css/product.css">
-    <script src="https://cdn.lottiefiles.com/animations/lottie-player@1.8.0/lottie-player.js"></script> <!-- Lottie CDN -->
+    <script src="https://cdn.lottiefiles.com/animations/lottie-player@1.8.0/lottie-player.js"></script>
+    <!-- Lottie CDN -->
 </head>
 
 <body>
@@ -19,7 +20,7 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="account.html">Account</a></li>
                     <li><a href="categories.html">Categories</a></li>
-                    <li><a href="sell.html">Sell</a></li>
+                    <li><a href="achievements.html">Achievements</a></li>
                 </ul>
             </nav>
         </div>
@@ -28,16 +29,24 @@
     <main>
         <section class="product-details" id="product-details">
         </section>
-    
+
         <!-- Wrapper for Centering Add to Cart Button -->
         <div class="add-to-cart-wrapper">
             <button id="add-to-cart-btn">Add to Cart</button>
-    
+
             <!-- Lottie Container for Animations (Initially Hidden) -->
             <div id="lottie-container" style="display: none;">
-                <lottie-player id="adding-to-cart-animation" src="https://assets5.lottiefiles.com/packages/lf20_b2mtbx.json" background="transparent" speed="1" loop autoplay></lottie-player>
+                <lottie-player id="adding-to-cart-animation"
+                    src="https://assets5.lottiefiles.com/packages/lf20_b2mtbx.json" background="transparent" speed="1"
+                    loop autoplay></lottie-player>
                 <p id="animation-message"></p>
             </div>
+
+            <!-- Surprise Reward Container -->
+            <div id="surprise-reward-container" style="display: none;">
+                <!-- Surprise message and achievements will be dynamically inserted here -->
+            </div>
+
         </div>
     </main>
 
