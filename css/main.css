@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #f9f9f9;
+    background-color: lightblue;
     color: #333;
 }
 
@@ -14,7 +14,7 @@ body {
 
 .header {
     background-color: #333;
-    color: #fff;
+    color: #007BFF;
     padding: 1rem 0;
     display: flex;
     justify-content: space-between;
@@ -45,7 +45,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    color: #fff;
+    color: black;
     text-align: center;
     padding: 0 1rem;
 }

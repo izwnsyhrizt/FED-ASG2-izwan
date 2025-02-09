@@ -2,6 +2,7 @@ main {
     display: flex;
     flex-direction: column;
     min-height: 100vh; /* Ensures the main content takes at least the full height of the viewport */
+    background-color: lightblue;
 }
 
 .categories {
@@ -16,7 +17,7 @@ main {
 }
 
 .category-item {
-    background-color: #f0f0f0;
+    background-color: lightblue;
     padding: 2rem; /* Increase padding to make boxes bigger */
     text-align: center;
     border-radius: 8px;
@@ -26,7 +27,7 @@ main {
 }
 
 .category-item:hover {
-    background-color: #ddd; /* Change background color on hover */
+    background-color: blue; /* Change background color on hover */
 }
 
 .category-item h3 {

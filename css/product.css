@@ -1,3 +1,5 @@
+
+
 .product-details {
     max-width: 800px;
     margin: 2rem auto;
@@ -5,7 +7,7 @@
     text-align: left;
     border: 1px solid #ddd;
     border-radius: 10px;
-    background-color: #f9f9f9;
+    background-color: lightblue;
 }
 
 .product-detail {
@@ -71,20 +73,22 @@ footer a:hover {
 }
 
 #add-to-cart-btn {
-    background-color: #ff5722;
+    background-color: #007bff;
     color: white;
     padding: 15px 25px;
     border: none;
     border-radius: 8px;
-    font-size: 16px;
+    font-size: 20px;
     cursor: pointer;
     transition: background-color 0.3s;
     display: inline-block;
     margin-top: 20px;
+    width:500px;
+    height: 50px;
 }
 
 #add-to-cart-btn:hover {
-    background-color: #e64a19;
+    background-color: blue;
 }
 
 /* Centering Add to Cart Button */
